@@ -1,131 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Hyungsik Yoon</title>
+  <meta
+    name="description"
+    content="Personal academic homepage of Hyungsik Yoon."
+  />
 
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      max-width: 850px;
-      margin: 60px auto;
-      padding: 0 25px;
-      line-height: 1.7;
-      color: #222;
-    }
-
-    h1 {
-      margin-bottom: 5px;
-    }
-
-    h2 {
-      margin-top: 45px;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 6px;
-    }
-
-    a {
-      color: #1769aa;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .subtitle {
-      color: #666;
-      margin-top: 0;
-    }
-
-    .links {
-      margin-top: 15px;
-    }
-
-    .links a {
-      margin-right: 15px;
-    }
-
-    .publication {
-      margin-bottom: 20px;
-    }
-
-    .paper-title {
-      font-weight: bold;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="site-name" href="#top">Hyungsik Yoon</a>
 
-  <h1>Your Name</h1>
-
-  <p class="subtitle">
-    Department of Computer Science<br>
-    Your University
-  </p>
-
-  <div class="links">
-    <a href="mailto:your@email.com">Email</a>
-    <a href="#">Google Scholar</a>
-    <a href="#">GitHub</a>
-    <a href="#">CV</a>
-  </div>
-
-
-  <h2>About</h2>
-
-  <p>
-    I am interested in machine learning for scientific problems,
-    with a focus on molecular structure and dynamics.
-  </p>
-
-
-  <h2>Research Interests</h2>
-
-  <p>
-    Machine Learning · Computer Vision · Computational Biology ·
-    Cryo-EM · Molecular Dynamics
-  </p>
-
-
-  <h2>Publications</h2>
-
-  <div class="publication">
-    <div class="paper-title">
-      Paper Title
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    Your Name, Coauthor Name, Advisor Name<br>
-    Conference / Journal, 2027<br>
+  <main id="top">
+    <section class="hero container">
+      <div class="profile-mark" aria-hidden="true">HY</div>
 
-    <a href="#">Paper</a> /
-    <a href="#">Code</a> /
-    <a href="#">Project Page</a>
-  </div>
+      <div class="hero-text">
+        <p class="eyebrow">Computer Science · Machine Learning</p>
 
+        <h1>Hyungsik Yoon</h1>
 
-  <h2>Projects</h2>
+        <p class="affiliation">
+           MS/Ph.D. Integrated Researcher<br />
+          Department of Computer Science, <span class="placeholder">Korea University</span>
+        </p>
 
-  <p>
-    <strong>Image-to-Molecular Dynamics</strong><br>
-    Reconstruction of molecular dynamics trajectories directly
-    from cryo-EM particle images.
-  </p>
+        <p class="intro">
+          I am interested in machine learning for scientific discovery,
+          with a focus on molecular structure and dynamics. My current
+          interests include cryo-EM reconstruction, generative modeling
+          for molecular dynamics, and Wasserstein gradient flows.
+        </p>
 
-  <p>
-    <strong>Wasserstein Gradient Flow</strong><br>
-    Learning particle dynamics governed by variational energy functionals.
-  </p>
+        <div class="links">
+          <!-- Replace the placeholders below with your actual links. -->
+          <a href="mailto:your-email@example.com">Email</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          <a href="https://github.com/yoonhyungsik" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">CV</a>
+        </div>
+      </div>
+    </section>
 
+    <section id="about" class="section container">
+      <h2>About</h2>
 
-  <h2>Contact</h2>
+      <div class="section-content">
+        <p>
+          My research interests lie at the intersection of machine learning,
+          computer vision, and computational molecular science. I am particularly
+          interested in learning representations and dynamics directly from
+          scientific observations.
+        </p>
 
-  <p>
-    Email: your@email.com
-  </p>
+        <div class="interest-list">
+          <span>Scientific Machine Learning</span>
+          <span>Computer Vision</span>
+          <span>Cryo-EM</span>
+          <span>Molecular Dynamics</span>
+          <span>Generative Modeling</span>
+          <span>Optimal Transport</span>
+        </div>
+      </div>
+    </section>
 
+    <section id="publications" class="section container">
+      <h2>Publications</h2>
+
+      <div class="section-content empty-section">
+        <!--
+        Add publication entries here later.
+
+        Example:
+
+        <article class="publication">
+          <p class="pub-title">Paper Title</p>
+          <p>Your Name, Coauthor Name, Advisor Name</p>
+          <p class="pub-venue">Conference or Journal, 2027</p>
+          <p class="pub-links">
+            <a href="#">Paper</a>
+            <a href="#">Code</a>
+            <a href="#">Project Page</a>
+          </p>
+        </article>
+        -->
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Projects</h2>
+
+      <div class="section-content empty-section">
+        <!--
+        Add project entries here later.
+
+        Example:
+
+        <article class="project">
+          <p class="project-title">Project Name</p>
+          <p>
+            One or two sentences describing the project.
+          </p>
+          <p class="project-links">
+            <a href="#">Project Page</a>
+            <a href="#">Code</a>
+          </p>
+        </article>
+        -->
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+
+      <div class="section-content contact">
+        <p>
+          The best way to reach me is by email.
+        </p>
+
+        <p>
+          <a href="mailto:your-email@example.com">your-email@example.com</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© 2026 Hyungsik Yoon</p>
+  </footer>
 </body>
 </html>
