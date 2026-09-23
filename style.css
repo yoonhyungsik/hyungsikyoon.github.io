@@ -100,18 +100,12 @@ a:hover {
   padding-bottom: 64px;
 }
 
-.profile-mark {
+.profile-photo {
   width: 142px;
-  aspect-ratio: 1;
-  display: grid;
-  place-items: center;
+  height: 142px;
+  object-fit: cover;
   border-radius: 50%;
-  background: var(--soft);
   border: 1px solid var(--line);
-  color: #3f4a5a;
-  font-size: 34px;
-  font-weight: 700;
-  letter-spacing: -0.04em;
 }
 
 .eyebrow {
